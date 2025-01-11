@@ -1,38 +1,12 @@
 # Thyroid Disease Classification using Neural Networks
 
-<!-- Replace with an actual image link if available -->
-![Project Overview](https://example.com/project-image.png)
-
-## Overview
+## Description
 This project leverages a neural network to classify thyroid diseases accurately using clinical data. The work demonstrates the effectiveness of machine learning in medical diagnostics, aiming to improve early detection and treatment of thyroid disorders.
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Dataset](#dataset)
-- [Data Preprocessing](#data-preprocessing)
-- [Model Architecture](#model-architecture)
-- [Training and Evaluation](#training-and-evaluation)
-- [Results](#results)
-- [Conclusion](#conclusion)
-- [References](#references)
 
 ## Introduction
 Thyroid diseases often exhibit subtle and varied symptoms, making accurate classification a challenge. This project addresses this issue by applying neural networks to clinical data, thereby enhancing diagnostic precision and patient care outcomes.
 
 This project was developed as part of the CS4082 course under the supervision of Dr. Mohammed Nauman.
-
-**Team Members:**
-- Shumokh Alhattami (S21107192)
-- Hadeel Balahmar (S20106481)
-- Deema Hamidah (S20106517)
-
-## Dataset
-The dataset is sourced from [Kaggle](https://www.kaggle.com/) and features:
-- A multiclass target variable representing various thyroid diseases.
-- Clinical features, including demographic information and thyroid-related tests.
-
-**Initial dataset shape:** `(9172, 31)`  
-**Post-processing shape:** `(13542, 31)`
 
 ## Data Preprocessing
 Key preprocessing steps include:
@@ -70,19 +44,16 @@ The model was trained for **10 epochs** with the following results:
 
 ### Training & Validation Loss
 <!-- Replace with actual image -->
-![Loss Plot](https://example.com/loss-plot.png)
+![Loss Plot](https://github.com/user-attachments/assets/96795d6d-adcc-48af-9aef-d4d4afdfc820)
 
 ### Training & Validation Accuracy
-<!-- Replace with actual image -->
-![Accuracy Plot](https://example.com/accuracy-plot.png)
+![Accuracy Plot](https://github.com/user-attachments/assets/9d010e5c-d26c-42bf-aec8-217b9f91b199)
 
 ## Results
 The model effectively classifies thyroid diseases with high accuracy. The confusion matrix and detailed evaluation metrics indicate robust performance across all classes.
 
-## Conclusion
-Our study demonstrates the potential of neural networks in medical diagnostics, particularly for thyroid disease classification. Future work may explore incorporating additional clinical features to further improve model performance.
+## Acknowledgments
+I would like to thank my instructor, Dr. Mohammed Nauman, for her guidance and support throughout this course.
 
-## References
-- **Dataset:** [Kaggle - Thyroid Disease Dataset](https://www.kaggle.com/)
-- **Tools:** Python, TensorFlow, Keras, Matplotlib, Scikit-learn
-- **Course:** CS4082 - Supervised by Dr. Mohammed Nauman
+Special thanks to my teammates, Shumokh Alhattami and Deema Hamidah for their collaboration and valuable contributions.
+
