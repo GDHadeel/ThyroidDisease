@@ -43,11 +43,14 @@ The model was trained for **10 epochs** with the following results:
 - **F1-score:** 92.75%
 
 ### Training & Validation Loss
-<!-- Replace with actual image -->
-![Loss Plot](https://github.com/user-attachments/assets/96795d6d-adcc-48af-9aef-d4d4afdfc820)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/96795d6d-adcc-48af-9aef-d4d4afdfc820" alt="Loss Plot" width="700" height="700">
+</p>
 
 ### Training & Validation Accuracy
-![Accuracy Plot](https://github.com/user-attachments/assets/9d010e5c-d26c-42bf-aec8-217b9f91b199)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9d010e5c-d26c-42bf-aec8-217b9f91b199" alt="Accuracy Plot" width="700" height="700">
+</p>
 
 ## Results
 The model effectively classifies thyroid diseases with high accuracy. The confusion matrix and detailed evaluation metrics indicate robust performance across all classes.
